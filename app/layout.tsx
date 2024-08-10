@@ -48,9 +48,10 @@ export default function RootLayout({
               {children}
             </main>
             <footer className="w-full flex items-center justify-center py-3">
-              <span className="text-default-600">syepesm05@gmail.com</span>
+              <span className="text-default-600">
+                © 2024 Sebastián Yepes Marta - syepesm05@gmail.com
+              </span>
               <br />
-              <p className="text-default-600">+57 305 763 5018</p>
             </footer>
           </div>
         </Providers>
