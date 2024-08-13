@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 
-export default function scrollButton() {
+export default function ScrollButton() {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {

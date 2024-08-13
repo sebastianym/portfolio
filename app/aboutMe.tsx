@@ -31,7 +31,7 @@ export default function AboutMe() {
             and am always looking to learn and adapt to new tools and
             methodologies. I am excited about the opportunities ahead and am
             committed to continuing to learn and develop in this dynamic field.
-            If you have a project in mind or just want to connect, don't
+            If you have a project in mind or just want to connect, don&apos;t
             hesitate to contact me.
           </p>
         </div>

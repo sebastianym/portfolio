@@ -1,10 +1,9 @@
-import { link } from "fs";
-
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "Sebastián Yepes",
-  description: "Below you will find the development of my portfolio as a web programmer.",
+  description:
+    "Below you will find the development of my portfolio as a web programmer.",
   navItems: [
     {
       label: "Home",
@@ -43,6 +42,7 @@ export const siteConfig = {
   ],
   links: {
     github: "https://github.com/sebastianym",
-    linkedin: "https://www.linkedin.com/in/sebasti%C3%A1n-yepes-marta-b2016a2aa",
+    linkedin:
+      "https://www.linkedin.com/in/sebasti%C3%A1n-yepes-marta-b2016a2aa",
   },
 };
