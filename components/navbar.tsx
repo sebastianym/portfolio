@@ -1,28 +1,36 @@
+"use client";
 import {
   Navbar as NextUINavbar,
   NavbarContent,
   NavbarMenu,
   NavbarMenuToggle,
-  NavbarBrand,
   NavbarItem,
   NavbarMenuItem,
 } from "@nextui-org/navbar";
-import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
-import { Input } from "@nextui-org/input";
 import { link as linkStyles } from "@nextui-org/theme";
 import NextLink from "next/link";
 import clsx from "clsx";
-
+import { useState } from "react";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
 import { GithubIcon, LinkedInIcon } from "@/components/icons";
 
 export const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const handleMenuItemClick = () => {
+    setMenuOpen(false);
+  };
   return (
-    <NextUINavbar maxWidth="2xl" position="sticky">
+    <NextUINavbar
+      maxWidth="2xl"
+      shouldHideOnScroll={false}
+      isMenuOpen={menuOpen}
+      disableScrollHandler={true}
+      disableAnimation={true}
+    >
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
-        <ul className="hidden lg:flex gap-4 justify-start ml-2">
+        <ul className="hidden md:flex gap-4 justify-start ml-2">
           {siteConfig.navItems.map((item) => (
             <NavbarItem key={item.href}>
               <NextLink
@@ -67,18 +75,14 @@ export const Navbar = () => {
           <GithubIcon className="text-default-500" />
         </Link>
         <ThemeSwitch />
-        <NavbarMenuToggle />
+        <NavbarMenuToggle onClick={() => setMenuOpen(!menuOpen)}/>
       </NavbarContent>
 
       <NavbarMenu>
         <div className="mx-4 mt-2 flex flex-col gap-2">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
-              <Link
-                color={"foreground"}
-                href="#"
-                size="lg"
-              >
+              <Link color={"foreground"} href={item.href} size="lg" onClick={handleMenuItemClick}>
                 {item.label}
               </Link>
             </NavbarMenuItem>

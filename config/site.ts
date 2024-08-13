@@ -8,37 +8,37 @@ export const siteConfig = {
   navItems: [
     {
       label: "Home",
-      href: "/",
+      href: "#home",
     },
     {
       label: "About me",
-      href: "/",
+      href: "#about-me",
     },
     {
       label: "Resume",
-      href: "/",
+      href: "#education",
     },
     {
       label: "Projects",
-      href: "/",
+      href: "#projects",
     },
   ],
   navMenuItems: [
     {
       label: "Home",
-      href: "/",
+      href: "#home",
     },
     {
       label: "About me",
-      href: "/",
+      href: "#about-me",
     },
     {
       label: "Resume",
-      href: "/",
+      href: "#education",
     },
     {
       label: "Projects",
-      href: "/",
+      href: "#projects",
     },
   ],
   links: {

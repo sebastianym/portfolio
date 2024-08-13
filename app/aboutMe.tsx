@@ -10,35 +10,37 @@ export default function AboutMe() {
         <h2 className={title({ size: "md" })}>About Me</h2>
       </div>
       <div className="mt-2 grid grid-cols-1 sm:grid-cols-3 gap-5">
-        <div className="sm:col-span-2 mt-6 flex flex-col gap-3 text-xs lg:text-base order-2 sm:order-1">
+        <div className="sm:col-span-2 mt-6 flex flex-col gap-3 text-sm lg:text-base order-2 sm:order-1 text-justify">
           <p>
-            I am a systems engineering student at the Francisco José de Caldas
-            District University, I am passionate about web development and I am
-            always looking to learn new things.
+            I am a Systems Engineering student at the Francisco José de Caldas
+            District University. Since the beginning of my academic career, I
+            have discovered a great passion for web development and the world of
+            technology.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero,
-            corporis quisquam minus cupiditate error veniam quas cumque
-            accusamus nesciunt magnam, fugiat possimus cum quidem impedit
-            inventore quaerat sed vitae laborum!
+            Throughout my studies, I have acquired skills in both frontend and
+            backend development, which allows me to approach projects
+            comprehensively. I am comfortable working with technologies such as
+            HTML, CSS, JavaScript, and modern frameworks such as React for the
+            frontend, as well as Node.js for the backend. Additionally, I have
+            experience in managing relational databases, which allows me to
+            efficiently design and manage data storage.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero,
-            corporis quisquam minus cupiditate error veniam quas cumque
-            accusamus nesciunt magnam, fugiat possimus cum quidem impedit
-            inventore quaerat sed vitae laborum!
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero,
-            corporis quisquam minus cupiditate error veniam quas cumque
-            accusamus nesciunt magnam, fugiat possimus cum quidem impedit
-            inventore quaerat sed vitae laborum!
+            I strive to stay up to date with the latest trends and technologies,
+            and am always looking to learn and adapt to new tools and
+            methodologies. I am excited about the opportunities ahead and am
+            committed to continuing to learn and develop in this dynamic field.
+            If you have a project in mind or just want to connect, don't
+            hesitate to contact me.
           </p>
         </div>
-        <div className="order-1 sm:order-2">
+        <div className="order-1 sm:order-2 flex items-center justify-center">
           <Image
             isBlurred
             width={240}
             src="https://nextui-docs-v2.vercel.app/images/album-cover.png"
-            className="m-5 flex items-center justify-center"
+            className="sm:m-5 flex items-center justify-center"
           />
         </div>
       </div>

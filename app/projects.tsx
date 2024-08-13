@@ -8,7 +8,7 @@ import { GithubIcon, LinkIcon } from "@/components/icons";
 
 export default function Projects() {
   return (
-    <section className="flex flex-col justify-start gap-4 py-8 lg:mx-32 md:py-10">
+    <section id="projects" className="flex flex-col justify-start gap-4 py-8 lg:mx-32 md:py-10">
       <div className="flex items-center gap-3 my-2">
         <DevIcon />
         <h2 className={title({ size: "md" })}>Projects</h2>
@@ -16,15 +16,16 @@ export default function Projects() {
       <ul className="mt-8 flex w-full flex-col">
         <li className="mb-16 grid grid-cols-1 last:mb-0 lg:grid-cols-2 lg:gap-6">
           <Image
+            className="scale-105"
             isZoomed
-            height={248}
-            width={441}
             alt="Project 1"
             src="https://nextui-docs-v2.vercel.app/images/fruit-1.jpeg"
           />
           <div>
-            <h3 className="text-2xl font-bold sm:text-4xl lg:mt-0 mt-5">Proyecto 1</h3>
-            <p className="mt-2 text-sm text-gray7">
+            <h3 className="text-2xl font-bold sm:text-4xl lg:mt-0 mt-5">
+              Proyecto 1
+            </h3>
+            <p className="mt-2 text-sm text-gray7 text-justify">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Repudiandae accusamus deleniti illum sapiente dolor aliquid neque
               magnam dignissimos aperiam nobis ab odit magni, molestias dolorum
@@ -40,7 +41,7 @@ export default function Projects() {
                 })}
                 href={siteConfig.links.github}
               >
-                <GithubIcon/>
+                <GithubIcon />
                 <span className="font-medium">Code</span>
               </Link>
               <Link
@@ -52,7 +53,7 @@ export default function Projects() {
                 })}
                 href={siteConfig.links.github}
               >
-                <LinkIcon/>
+                <LinkIcon />
                 <span className="font-medium">Demo</span>
               </Link>
             </div>
