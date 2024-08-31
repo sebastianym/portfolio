@@ -31,10 +31,10 @@ export default function Projects() {
             <p className="mt-2 text-sm text-gray7 text-justify">
               This web app allows you to manage your daily tasks efficiently.
               You can create and view a list of tasks, marking each one as
-              completed once you've finished it. The app uses localStorage to
+              completed once you&apos;ve finished it. The app uses localStorage to
               ensure that your data remains persistent, even if you close the
-              browser or reload the page. This way, you'll always have access to
-              your updated to-do list and won't lose the progress of your
+              browser or reload the page. This way, you&apos;ll always have access to
+              your updated to-do list and won&apos;t lose the progress of your
               activities.
             </p>
             <div className="mt-4 flex gap-2">
