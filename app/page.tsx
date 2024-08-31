@@ -1,9 +1,9 @@
-import Home from "./home";
-import Projects from "./projects";
-import AboutMe from "./aboutMe";
-import Education from "./education";
-import Skills from "./skills";
-import ScrollButton  from "./scrollButton";
+import Home from "../components/sections/home";
+import Projects from "../components/sections/projects";
+import AboutMe from "../components/sections/aboutMe";
+import Education from "../components/sections/education";
+import Skills from "../components/sections/skills";
+import ScrollButton  from "../components/items/scrollButton";
 export default function App() {
   return (
     <div>

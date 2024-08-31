@@ -42,6 +42,8 @@ export const siteConfig = {
   ],
   links: {
     github: "https://github.com/sebastianym",
+    githubTaskManager: "https://github.com/sebastianym/task-manager",
+    netlifyTaskManager: "https://task-manager-sym.netlify.app/",
     linkedin:
       "https://www.linkedin.com/in/sebasti%C3%A1n-yepes-marta-b2016a2aa",
   },

@@ -8,7 +8,10 @@ import { GithubIcon, LinkIcon } from "@/components/icons";
 
 export default function Projects() {
   return (
-    <section id="projects" className="flex flex-col justify-start gap-4 py-8 lg:mx-32 md:py-10">
+    <section
+      id="projects"
+      className="flex flex-col justify-start gap-4 py-8 lg:mx-32 md:py-10"
+    >
       <div className="flex items-center gap-3 my-2">
         <DevIcon />
         <h2 className={title({ size: "md" })}>Projects</h2>
@@ -19,17 +22,20 @@ export default function Projects() {
             className="scale-105"
             isZoomed
             alt="Project 1"
-            src="https://nextui-docs-v2.vercel.app/images/fruit-1.jpeg"
+            src="/images/ProjectTaskManager.png"
           />
           <div>
             <h3 className="text-2xl font-bold sm:text-4xl lg:mt-0 mt-5">
-              Proyecto 1
+              Task Manager
             </h3>
             <p className="mt-2 text-sm text-gray7 text-justify">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Repudiandae accusamus deleniti illum sapiente dolor aliquid neque
-              magnam dignissimos aperiam nobis ab odit magni, molestias dolorum
-              saepe quisquam harum sed debitis?
+              This web app allows you to manage your daily tasks efficiently.
+              You can create and view a list of tasks, marking each one as
+              completed once you've finished it. The app uses localStorage to
+              ensure that your data remains persistent, even if you close the
+              browser or reload the page. This way, you'll always have access to
+              your updated to-do list and won't lose the progress of your
+              activities.
             </p>
             <div className="mt-4 flex gap-2">
               <Link
@@ -39,7 +45,7 @@ export default function Projects() {
                   radius: "full",
                   variant: "bordered",
                 })}
-                href={siteConfig.links.github}
+                href={siteConfig.links.githubTaskManager}
               >
                 <GithubIcon />
                 <span className="font-medium">Code</span>
@@ -51,7 +57,7 @@ export default function Projects() {
                   radius: "full",
                   variant: "bordered",
                 })}
-                href={siteConfig.links.github}
+                href={siteConfig.links.netlifyTaskManager}
               >
                 <LinkIcon />
                 <span className="font-medium">Demo</span>
