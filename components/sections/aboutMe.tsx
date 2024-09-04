@@ -39,7 +39,7 @@ export default function AboutMe() {
           <Image
             isBlurred
             width={240}
-            src="https://nextui-docs-v2.vercel.app/images/album-cover.png"
+            src="https://avatars.githubusercontent.com/u/125759356?v=4"
             className="sm:m-5 flex items-center justify-center"
           />
         </div>
