@@ -12,27 +12,19 @@ export default function AboutMe() {
       <div className="mt-2 grid grid-cols-1 sm:grid-cols-3 gap-5">
         <div className="sm:col-span-2 mt-6 flex flex-col gap-3 text-sm lg:text-base order-2 sm:order-1 text-justify">
           <p>
-            I am a Systems Engineering student at the Francisco José de Caldas
-            District University. Since the beginning of my academic career, I
-            have discovered a great passion for web development and the world of
-            technology.
+            Software developer with a strong background in systems engineering, currently in the final stages of my
+            degree at Francisco José de Caldas District University. I specialize in front-end development, designing
+            dynamic, user-friendly, and responsive web applications.
           </p>
           <p>
-            Throughout my studies, I have acquired skills in both frontend and
-            backend development, which allows me to approach projects
-            comprehensively. I am comfortable working with technologies such as
-            HTML, CSS, JavaScript, and modern frameworks such as React for the
-            frontend, as well as Node.js for the backend. Additionally, I have
-            experience in managing relational databases, which allows me to
-            efficiently design and manage data storage.
+            My expertise lies in building intuitive interfaces
+            using JavaScript, React, HTML, CSS, and modern front-end frameworks, with a solid understanding of
+            SPA principles, REST APIs, and web performance optimization. Additionally, I have experience in fullstack development, including server-side technologies such as NodeJS, as well as database
+            management.
           </p>
           <p>
-            I strive to stay up to date with the latest trends and technologies,
-            and am always looking to learn and adapt to new tools and
-            methodologies. I am excited about the opportunities ahead and am
-            committed to continuing to learn and develop in this dynamic field.
-            If you have a project in mind or just want to connect, don&apos;t
-            hesitate to contact me.
+            I am passionate about creating seamless user experiences, writing clean and maintainable
+            code, and continuously improving my skills to stay at the forefront of web technologies.
           </p>
         </div>
         <div className="order-1 sm:order-2 flex items-center justify-center">

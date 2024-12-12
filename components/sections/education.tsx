@@ -52,10 +52,11 @@ export default function Education() {
         <li className="mb-6 grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-0">
           <div>
             <h3 className="text-lg font-bold lg:w-4/5 lg:text-2xl">
-              Complete Web Development with HTML5, CSS3, JS AJAX PHP and MySQL
+              Complete Web Development with HTML5, CSS3, JS, NodeJS and
+              MySQL
             </h3>
             <h4 className="font-semibold text-gray9 lg:text-xl italic">Udemy</h4>
-            <p className="text-sm lg:text-base italic">2023 - 2024</p>
+            <p className="text-sm lg:text-base italic">2023</p>
           </div>
           <div>
             <p className="text-sm text-gray7 lg:text-base dark:text-gray4 text-justify">
