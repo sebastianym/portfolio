@@ -29,13 +29,13 @@ export default function Projects() {
               Task Manager
             </h3>
             <p className="mt-2 text-sm text-gray7 text-justify">
-              This web app allows you to manage your daily tasks efficiently.
-              You can create and view a list of tasks, marking each one as
-              completed once you&apos;ve finished it. The app uses localStorage to
-              ensure that your data remains persistent, even if you close the
-              browser or reload the page. This way, you&apos;ll always have access to
-              your updated to-do list and won&apos;t lose the progress of your
-              activities.
+              This web application is designed to help you manage your daily
+              tasks efficiently. It allows you to easily create, edit, and
+              delete tasks, as well as mark each one as complete when you finish
+              it. It uses a PostgreSQL database and a simple REST API, ensuring
+              that your data is always persistent and up-to-date. This way, you
+              can access your to-do list at any time and keep track of your
+              progress.
             </p>
             <div className="mt-4 flex gap-2">
               <Link
