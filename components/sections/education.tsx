@@ -17,7 +17,7 @@ export default function Education() {
             <h4 className="font-semibold text-gray9 lg:text-xl italic">
               Francisco Jose de Caldas District University
             </h4>
-            <p className="text-sm lg:text-base italic">2021 - Present</p>
+            <p className="text-sm lg:text-base italic">2021 - 2025</p>
           </div>
           <div>
             <p className="text-sm text-gray7 lg:text-base dark:text-gray4 text-justify">

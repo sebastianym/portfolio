@@ -11,9 +11,9 @@ export default function Home() {
         <h1 className={title({ size: "lg" })}>Hello, I&apos;m Sebastián</h1>
         <br />
         <p className="my-4"></p>
-        <p className={title({ size: "cm" })}>Systems engineer student.&nbsp;</p>
+        <p className={title({ size: "cm" })}>Systems engineer.&nbsp;</p>
         <p className={title({ color: "violet", size: "cm" })}>
-          Web developer.&nbsp;
+          Software developer.&nbsp;
         </p>
         <p className={title({ color: "pink", size: "cm" })}>
           From Bogotá, Colombia.&nbsp;

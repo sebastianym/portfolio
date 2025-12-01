@@ -45,6 +45,6 @@ export const siteConfig = {
     githubTaskManager: "https://github.com/sebastianym/task-managment",
     netlifyTaskManager: "https://task-managment-blue.vercel.app/iniciar-sesion",
     linkedin:
-      "https://www.linkedin.com/in/sebasti%C3%A1n-yepes-marta-b2016a2aa",
+      "https://www.linkedin.com/in/sebastianyepesmarta/",
   },
 };
