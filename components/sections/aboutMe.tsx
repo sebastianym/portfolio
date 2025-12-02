@@ -35,7 +35,7 @@ export default function AboutMe() {
           <Image
             isBlurred
             width={240}
-            src="https://media.licdn.com/dms/image/v2/D5603AQEvnNvrGNJWiQ/profile-displayphoto-crop_800_800/B56ZmeCDozH8BI-/0/1759292964394?e=1766016000&v=beta&t=1oJwDuq_bUCa0FwqP_DVW7G0MyU3rtK6ITxz2NSehbM"
+            src="https://avatars.githubusercontent.com/u/125759356?v=4"
             className="sm:m-5 flex items-center justify-center"
           />
         </div>
